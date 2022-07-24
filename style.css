@@ -1,0 +1,32 @@
+* {
+    /* background-color: black; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ul {
+    color: white;
+    list-style: none;
+} */
+
+.flex-container {
+    display: flex;
+    background: grey;
+    justify-content: end;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    margin:10px;
+}
+
+.item:nth-of-type(1) {
+    color: blue;
+}
