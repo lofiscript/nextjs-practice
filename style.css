@@ -9,24 +9,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*ul {
-    color: white;
-    list-style: none;
-} */
-
 .flex-container {
+    height: 400px;
     display: flex;
-    background: grey;
-    justify-content: end;
+    background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .item {
     width: 100px;
     height: 100px;
     background: purple;
-    margin:10px;
 }
 
 .item:nth-of-type(1) {
     color: blue;
+    margin-right: 100px;
+}
+
+.item:nth-of-type(2) {
+
+
+}
+
+.item:nth-of-type(3) {
+    
 }
